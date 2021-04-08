@@ -39,7 +39,6 @@ blockquote, q {
 *{
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
     }
 
     /* General Styles */
@@ -106,4 +105,38 @@ nav a{
     line-height: 2;
     position: absolute;
     bottom:20%
+}
+.middle{
+    background-color: #DDB9A3;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1% 0
+}
+.info p{
+    color: white;
+    text-align: center;
+    margin: 0 5%;
+    padding: 1% 0
+}
+.gallary img{
+    margin-left: 40%;
+    width: 15%
+}
+.gallary p{
+    width: 20%;
+    margin: 0 38%;
+}
+span{
+    font-weight: bold;
+}
+.bgimage{
+    background-image: url('assets/footer_img.jpg');
+    width:100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+footer nav{
+    background-color:#F9E7DC;
 }
